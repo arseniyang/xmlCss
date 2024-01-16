@@ -1,0 +1,12 @@
+/* CSS styles */
+telef { display: flex; flex-wrap: wrap; color: red; background-color: pink}
+tele { width: 30%; margin: 1%; padding: 1%; border: 1px solid black; }
+nazv { font-weight: bold; }
+izgot { font-style: italic; }
+color { }
+display { font-size: smaller; }
+corpus { font-size: smaller; }
+year { font-size: smaller; }
+timecharge { font-size: smaller; }
+timework { font-size: smaller; }
+chehol { font-size: smaller; }

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="tt.css"?>
+<telef>
+  <tele>
+    <nazv>A50</nazv>
+    <izgot>Самсунг</izgot>
+    <color>Черный</color>
+    <display>IPS</display>
+    <corpus>5.7</corpus>
+    <year>2015</year>
+    <timecharge>5часов</timecharge>
+    <timework>7часов</timework>
+    <chehol>есть</chehol>
+  </tele>
+  <tele>
+    <nazv>1104</nazv>
+    <izgot>Нокиа</izgot>
+    <color>Черный</color>
+    <display>IPS</display>
+    <corpus>3</corpus>
+    <year>2000</year>
+    <timecharge>4часа</timecharge>
+    <timework>10часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+  <tele>
+    <nazv>айфон</nazv>
+    <izgot>Эпл</izgot>
+    <color>Белый</color>
+    <display>OLED</display>
+    <corpus>6</corpus>
+    <year>2021</year>
+    <timecharge>6часов</timecharge>
+    <timework>7часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+  <tele>
+    <nazv>P30</nazv>
+    <izgot>Хуавей</izgot>
+    <color>Синий</color>
+    <display>AMOLED</display>
+    <corpus>6.1</corpus>
+    <year>2019</year>
+    <timecharge>5часов</timecharge>
+    <timework>8часов</timework>
+    <chehol>есть</chehol>
+  </tele>
+  <tele>
+    <nazv>Xiaomi Redmi Note 8</nazv>
+    <izgot>Сяоми</izgot>
+    <color>Черный</color>
+    <display>IPS</display>
+    <corpus>6.3</corpus>
+    <year>2019</year>
+    <timecharge>4часа</timecharge>
+    <timework>8часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+  <tele>
+    <nazv>LG G7 ThinQ</nazv>
+    <izgot>Элджи</izgot>
+    <color>Серый</color>
+    <display>IPS</display>
+    <corpus>6.1</corpus>
+    <year>2018</year>
+    <timecharge>4часа</timecharge>
+    <timework>6часов</timework>
+    <chehol>есть</chehol>
+  </tele>
+  <tele>
+    <nazv>Sony Xperia XZ2 Compact</nazv>
+    <izgot>Сони</izgot>
+    <color>Зеленый</color>
+    <display>IPS</display>
+    <corpus>5.0</corpus>
+    <year>2018</year>
+    <timecharge>3часа</timecharge>
+    <timework>7часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+  <tele>
+    <nazv>OnePlus 6T</nazv>
+    <izgot>Ванплюс</izgot>
+    <color>Черный</color>
+    <display>AMOLED</display>
+    <corpus>6.41</corpus>
+    <year>2018</year>
+    <timecharge>4часа</timecharge>
+    <timework>7часов</timework>
+    <chehol>есть</chehol>
+  </tele>
+  <tele>
+    <nazv>Google Pixel 3a XL</nazv>
+    <izgot>Гугл</izgot>
+    <color>Белый</color>
+    <display>OLED</display>
+    <corpus>6.0</corpus>
+    <year>2019</year>
+    <timecharge>5часов</timecharge>
+    <timework>8часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+  <tele>
+    <nazv>Motorola Moto G7 Power</nazv>
+    <izgot>Моторола</izgot>
+    <color>Синий</color>
+    <display>LCD</display>
+    <corpus>6.2</corpus>
+    <year>2019</year>
+    <timecharge>5часов</timecharge>
+    <timework>10часов</timework>
+    <chehol>нет</chehol>
+  </tele>
+</telef>
