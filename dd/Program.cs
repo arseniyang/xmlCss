@@ -13,22 +13,22 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            string inputFilePath = @"C:\Users\Admin\Desktop\цыреновУЧ\powershell\список.txt";
-            string outputFilePath = @"C:\Users\Admin\Desktop\цыреновУЧ\powershell\phones.xml";
-            string outputcssFilePath = @"C:\Users\Admin\Desktop\цыреновУЧ\powershell\tt.css";
+            string inputFilePath = @"list.txt";
+            string outputFilePath = @"phones.xml";
+            string outputcssFilePath = @"tt.css";
 
 
-            // Чтение данных из входного файла 
+            // Г—ГІГҐГ­ГЁГҐ Г¤Г Г­Г­Г»Гµ ГЁГ§ ГўГµГ®Г¤Г­Г®ГЈГ® ГґГ Г©Г«Г  
             string[] lines = File.ReadAllLines(inputFilePath);
 
-            // Создание XML документа 
+            // Г‘Г®Г§Г¤Г Г­ГЁГҐ XML Г¤Г®ГЄГіГ¬ГҐГ­ГІГ  
             XmlDocument xmlDoc = new XmlDocument();
 
-            // Создание корневого элемента 
+            // Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЄГ®Г°Г­ГҐГўГ®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ  
             XmlDeclaration xmlDeclaration = xmlDoc.CreateXmlDeclaration("1.0", "utf-8", null);
             xmlDoc.AppendChild(xmlDeclaration);
 
-            // Добавление строки, связывающей XML файл с CSS файлом
+            // Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ Г±ГІГ°Г®ГЄГЁ, Г±ГўГїГ§Г»ГўГ ГѕГ№ГҐГ© XML ГґГ Г©Г« Г± CSS ГґГ Г©Г«Г®Г¬
             XmlProcessingInstruction pi = xmlDoc.CreateProcessingInstruction("xml-stylesheet", "type=\"text/css\" href=\"tt.css\""); xmlDoc.AppendChild(pi);
             XmlElement root = xmlDoc.CreateElement("telef");
             xmlDoc.AppendChild(root);
@@ -85,14 +85,14 @@ namespace ConsoleApp1
                 chehol.InnerText = data[8];
                 tele.AppendChild(chehol);
 
-                //год изготовления, время зарядки, время работы в ожидании, чехол. 
+                //ГЈГ®Г¤ ГЁГ§ГЈГ®ГІГ®ГўГ«ГҐГ­ГЁГї, ГўГ°ГҐГ¬Гї Г§Г Г°ГїГ¤ГЄГЁ, ГўГ°ГҐГ¬Гї Г°Г ГЎГ®ГІГ» Гў Г®Г¦ГЁГ¤Г Г­ГЁГЁ, Г·ГҐГµГ®Г«. 
 
 
             }
 
-            // Сохранение XML-документа в выходной файл 
+            // Г‘Г®ГµГ°Г Г­ГҐГ­ГЁГҐ XML-Г¤Г®ГЄГіГ¬ГҐГ­ГІГ  Гў ГўГ»ГµГ®Г¤Г­Г®Г© ГґГ Г©Г« 
             xmlDoc.Save(outputFilePath);
-            Console.WriteLine("Данные успешно загружены в файл phones.xml");
+            Console.WriteLine("Г„Г Г­Г­Г»ГҐ ГіГ±ГЇГҐГёГ­Г® Г§Г ГЈГ°ГіГ¦ГҐГ­Г» Гў ГґГ Г©Г« phones.xml");
 
             string css = "/* CSS styles */\n" +
 
@@ -109,7 +109,7 @@ namespace ConsoleApp1
                          "chehol { font-size: smaller; }\n";
 
             File.WriteAllText(outputcssFilePath, css);
-            //Записать данные о 10-и телефонах на русском языке и раскрасит шрифт красный, фон бледно-розовый.
+            //Г‡Г ГЇГЁГ±Г ГІГј Г¤Г Г­Г­Г»ГҐ Г® 10-ГЁ ГІГҐГ«ГҐГґГ®Г­Г Гµ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬ ГїГ§Г»ГЄГҐ ГЁ Г°Г Г±ГЄГ°Г Г±ГЁГІ ГёГ°ГЁГґГІ ГЄГ°Г Г±Г­Г»Г©, ГґГ®Г­ ГЎГ«ГҐГ¤Г­Г®-Г°Г®Г§Г®ГўГ»Г©.
             Console.ReadKey();
             
         }
